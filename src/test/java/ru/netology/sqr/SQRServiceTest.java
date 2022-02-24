@@ -11,6 +11,7 @@ class SQRServiceTest {
         int actual = service.sortSquare(200, 300);
         assertEquals(expected, actual);
     }
+
     @org.junit.jupiter.api.Test
     void noSquaresInRange() {
         SQRService service = new SQRService();
@@ -18,6 +19,7 @@ class SQRServiceTest {
         int actual = service.sortSquare(200, 210);
         assertEquals(expected, actual);
     }
+
     @org.junit.jupiter.api.Test
     void allSquaresInRange() {
         SQRService service = new SQRService();
